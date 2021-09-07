@@ -91,7 +91,7 @@ Pre-Intermediate, Intermediate, Upper Intermediate, Advanced.
 Software testing.
 
 **ONLINE TRAINING**\
-HTML, CSS, JavaScript, SQL
+HTML, CSS, JavaScript, SQL.
 
 ---
 
