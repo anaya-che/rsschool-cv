@@ -6,6 +6,8 @@
 **GitHub:** [anaya-che](https://github.com/anaya-che)\
 **Telegram:** [nana_che](https://t.me/nana_che)
 
+---
+
 ## About Me:
 Hi! My name is Anastasiya. I've started my career in IT as a Software Testing Engineer, but now I'm a Front-end Developer in a small company.
 The current goal is to improve my skills and find a job with possibilities for professional growth.
@@ -16,6 +18,8 @@ The current goal is to improve my skills and find a job with possibilities for p
 - analytical mind
 - a team player
 
+---
+
 ## Skills:
 - HTML
 - CSS
@@ -25,6 +29,8 @@ The current goal is to improve my skills and find a job with possibilities for p
 - Git
 - Visual Studio Code
 - Manual testing
+
+---
 
 ## Code Example:
 ```
@@ -43,6 +49,8 @@ var Cat = (function () {
   return constructor;
 }())
 ```
+
+---
 
 ## Experience:
 *2018 - Present*\
@@ -67,6 +75,8 @@ Duties:
 - Liaising with developers and programmers to swiftly resolve faults.
 - Analysing, writing reports and communicating results to colleagues.
 
+---
+
 ## Education:
 *2008-2012*\
 **YANKA KUPALA STATE UNIVERSITY OF GRODNO**\
@@ -83,10 +93,14 @@ Software testing.
 **ONLINE TRAINING**\
 HTML, CSS, JavaScript, SQL
 
+---
+
 ## Languages:
 - English (С1)
 - Polish (B1)
 - Russian (Native)
+
+---
 
 ## Hobbies:
 - traveling
