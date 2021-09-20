@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Anastasiya Chabatarova CV</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="nav-wrapper">
+                <nav>
+                    <div class="navigation">
+                        <ul class="nav-items">
+                            <li><a class="nav-link" href="#profile">Profile</a></li>
+                            <li><a class="nav-link" href="#experience">Experience</a></li>
+                            <li><a class="nav-link" href="#code">Code</a></li>
+                            <li><a class="nav-link" href="#projects">Projects</a></li>
+                            <li><a class="nav-link" href="#contacts" >Contacts</a></li>
+                        </ul>
+                        <div class="nav-toogler"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="profile" id="profile">
+
+            <aside class="profile__picture-container">
+                <figure class="profile__picture-figure">
+                    <img class="profile__picture-image" src="assets/photo.jpg" alt="My Photo">
+                </figure>
+            </aside>
+
+            <div class="profile__container">
+                <h1>Anastasiya Chabatarova</h1>
+                <h5>Front-end Developer</h5>
+                <article>
+                    <h2>Profile</h2>
+                    <p class="profile__text">My name is Anastasiya. I’ve started my career in IT as a Software Testing Engineer, but now I’m a Front-end Developer in a small company. The current goal is to improve my skills and find a job with possibilities for professional growth.</p>
+                </article>
+            </div>
+
+        </div>
+
+        <main class="main">
+
+            <div class="left-column">
+                <section class="education">
+                    <h2>Education</h2>
+                    <h5>2008-2012</h5>
+                    <h4>YANKA KUPALA STATE UNIVERSITY OF GRODNO</h4>
+                    <p>Bachelor. Faculty of Psychology.</p>
+                    <P>Course: Practical psychology.</P>
+                </section>
+
+                <section class="courses">
+                    <h2>Courses</h2>
+                    <div class="courses__block">
+                        <h4>ONLINE TRAINING</h4>
+                        <p>HTML, CSS, JavaScript, SQL.</p>
+                    </div>
+                    <div class="courses__block">
+                        <h4>ENGLISH LANGUAGE CENTRE MR.ENGLISH</h4>
+                        <p>Pre-Intermediate, Intermediate, Upper Intermediate, Advanced.</p>
+                    </div>
+                    <div class="courses__block">
+                        <h4>THE EDUCATIONAL CENTRE INTELISOFT</h4>
+                        <p>Software testing.</p>
+                    </div>
+                </section>
+
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>SQL</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+
+                <section class="spft-skills">
+                    <h2>soft skills</h2>
+                    <ul>
+                        <li>fast learner</li>
+                        <li>responsible and diligent</li>
+                        <li>attentive to details</li>
+                        <li>analytical mind</li>
+                        <li>a team player</li>
+                    </ul>
+                </section>
+
+                <section class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>English (С1)</li>
+                        <li>Polish (B1)</li>
+                        <li>Russian (Native)</li>
+                    </ul>
+                </section>
+                
+                <section class="contacts" id="contacts">
+                    <h2 class="contacts__title">Contacts</h2>
+                    <div class="contacts__container">
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <div class="contacts__image contacts__image_location"></div>
+                                <h3>LOCATION</h3>
+                                <p class="contacts__text">Grodno, Belarus</p>
+                            </li>
+                            <li class="contacts__item">
+                                <div class="contacts__image contacts__image_email"></div>
+                                <h3>EMAIL</h3>
+                                <a class="contacts__text" href="mailto:anaya.che22@gmail.com" target="_blank">anaya.che22@gmail.com</a>
+                            </li>
+                            <li class="contacts__item">
+                                <div class="contacts__image contacts__image_telegram"></div>
+                                <h3>TELEGRAM</h3>
+                                <a class="contacts__text" href="https://t.me/nana_che" target="_blank">nana_che</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="main-column">
+
+                <section class="experience" id="experience">
+                    <h2>Experience</h2>
+                    <h5>2018 - Present</h5>
+                    <span>Velox Imaging / Front-end Developer</span>
+                    <ul class="duties">
+                        <li>Creating HTML pages from PSD</li>
+                        <li>Tasks estimations and management</li>
+                        <li>Site Planning</li>
+                        <li>Accessible content and code optimization</li>
+                    </ul>
+                    <h5>2017 - 2018</h5>
+                    <span>Velox Imaging / Software Testing Engineer</span>
+                    <ul class="duties">
+                        <li>Testing software to identify and resolve problems.</li>
+                        <li>Testing developed software against specified requirements.</li>
+                        <li>Accurately monitoring and recording results in test documentation.</li>
+                        <li>Analysing, writing reports and communicating results to colleagues.</li>
+                    </ul>
+                </section>
+
+                <section class="code" id="code">
+                    <h2>Code Example:</h2>
+                    <pre class="code-example"><code class="JavaScript">function isIsogram(str) {
+        let arr = str.toLowerCase().split('');
+        let res = arr.every((v, i) => str.toLowerCase().indexOf(v) === i);
+        return res;
+    }</code></pre>
+                </section>
+
+                <section class="projects" id="projects">
+                    <h2>My projects:</h2>
+                    <div class="project__container">
+                        <a class="project-link" href="https://anaya-che.github.io/singolo/index.html" target="_blank">
+                            <figure class="project-image">
+                                <img src="assets/singolo.jpg" alt="Image of the project" style="width:100%">
+                                <figcaption>Singolo.<br>A landing page with with interactive elements, responsive.<br>(HTML, CSS, JavaScript)</figcaption>
+                            </figure>
+                        </a>
+                        <a class="project-link" href="https://anaya-che-english-for-kids.netlify.app" target="_blank">
+                            <figure class="project-image">
+                                <img src="assets/english.jpg" alt="Image of the project" style="width:100%">
+                                <figcaption>English for Kids.<br>An interactive web application for studying English.<br>(HTML, CSS, JavaScript)</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </section>
+
+                <section class="hobbies">
+                    <h2>Hobbies</h2>
+                    <ul class="hobbies-list">
+                        <li class="hobbies-item">
+                            <div class="hobbies__image hobbies__image_traveling"></div>
+                            <p class="hobbies-title">traveling</p>
+                        </li>
+                        <li class="hobbies-item">
+                            <div class="hobbies__image hobbies__image_music"></div>
+                            <p class="hobbies-title">music</p>
+                        </li>
+                        <li class="hobbies-item">
+                            <div class="hobbies__image hobbies__image_gaming"></div>
+                            <p class="hobbies-title">computer games</p>
+                        </li>
+                        <li class="hobbies-item">
+                            <div class="hobbies__image hobbies__image_science"></div>
+                            <p class="hobbies-title">popular science</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <a href="https://github.com/anaya-che" target="_blank">
+                    <div class="footer__image footer__image-github"></div>
+                </a>
+                <h4 class="footer__date">2021</h4>
+                <a href="https://rs.school/js/" target="_blank">
+                    <div class="footer__image footer__image-school"></div>
+                </a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
